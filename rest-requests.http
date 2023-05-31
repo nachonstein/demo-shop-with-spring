@@ -1,0 +1,45 @@
+POST {{host}}:{{port}}/products
+Content-Type: application/json
+
+{
+  "name": "Jordan",
+  "brand": "Nike",
+  "quality": "GOOD",
+  "stock": 6
+}
+
+###
+DELETE {{host}}:{{port}}/products
+Content-Type: application/json
+
+{
+  "name": "Jordan",
+  "brand": "Nike",
+  "quality": "GOOD",
+  "stock": 2
+}
+
+###
+POST {{host}}:{{port}}/products
+Content-Type: application/json
+
+{
+  "name": "Jordan",
+  "brand": "Nike",
+  "quality": "PERFECT",
+  "stock": 4
+}
+
+###
+DELETE {{host}}:{{port}}/products
+Content-Type: application/json
+
+{
+  "name": "Jordan",
+  "brand": "Nike",
+  "quality": "PERFECT",
+  "stock": 2
+}
+
+###
+GET {{host}}:{{port}}/products
