@@ -55,6 +55,3 @@ public class KafkaProducerConfig {
         return new KafkaTemplate<>(productProducerFactory());
     }
 }
-
-
-KafkaProperties.commonProducerConfig()
